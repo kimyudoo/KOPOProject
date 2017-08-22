@@ -2,6 +2,9 @@
 
 hahaha
 
+<<<<<<< HEAD
+my name is Oh myung Kwan
+=======
 aaaaaaaa
 aaaa
 aaaaa
@@ -12,3 +15,4 @@ huhuhuhuhu
 uuuuu
 uuu
 uuuu
+>>>>>>> b9e36cda55cbd9cfc4f3d2c28f733b65422996a9
