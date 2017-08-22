@@ -1,2 +1,8 @@
-¸í°üÀÌ´Â ÀºÇàÀÌ°í »ó¿¬ÀÌ´Â È²°¡·»ÀÌ°í ÅÃ¿µÀÌ´Â °«ÅÃ¿µÀÌ´Ù
-½ÎÀå´Ô ÇÚµåÆùÄÉÀÌ½º ´ë¹Ú
+ëª…ê´€ì´ëŠ” ì€í–‰ì´ê³  ìƒì—°ì´ëŠ” í™©ê°€ë Œì´ê³  íƒì˜ì´ëŠ” ê°“íƒì˜ì´ë‹¤
+ì‹¸ì¥ë‹˜ í•¸ë“œí°ì¼€ì´ìŠ¤ ëŒ€ë°•
+
+
+
+We've detected the file encoding as EUC-KR. When you commit changes we will transcode it to UTF-8. 
+
+Global generation, This is GG, Sonyusidae
