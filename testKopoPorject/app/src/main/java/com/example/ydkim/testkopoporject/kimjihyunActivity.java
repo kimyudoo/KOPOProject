@@ -1,5 +1,6 @@
 package com.example.ydkim.testkopoporject;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,7 +10,7 @@ import android.widget.Toast;
  * Created by 501ST01 on 2017-08-23.
  */
 
-public class kimjihyunActivity extends MainActivity {
+public class kimjihyunActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
