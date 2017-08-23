@@ -15,7 +15,7 @@ public class choyoungdo_Activity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.choyoungdo);
 
         //뒤로 가기 버튼
         Button bBtn = (Button)findViewById(R.id.backBtn);
