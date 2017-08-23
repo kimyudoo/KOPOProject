@@ -18,7 +18,7 @@ public class kimjihyunActivity extends Activity {
         setContentView(R.layout.kimjihyun);
 
         // khj->kimjihyun 액티비티 전환
-        Button button_festival = (Button)findViewById(R.id.kimjihyun_forward_button);
+        Button button_festival = (Button)findViewById(R.id.kimjihyun_front_button);
         button_festival.setOnClickListener(new View.OnClickListener() {
 
             @Override
