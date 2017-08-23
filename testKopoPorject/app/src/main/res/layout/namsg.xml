@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:background="#00CED1"
             android:textColor="#000000"
-            android:text=" 남상구입니다"/>
+            android:text="앞으로 갓"/>
 
         <Button
             android:id="@+id/btnStop"
@@ -23,7 +23,7 @@
             android:layout_height="match_parent"
             android:background="#fff000"
             android:textColor="#000000"
-            android:text="안뇽...."/>
+            android:text="뒤로 돌앗...."/>
 
     </LinearLayout>
 
