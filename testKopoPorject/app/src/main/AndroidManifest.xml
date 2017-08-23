@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ydkim.testkopoporject">
 
@@ -22,6 +22,7 @@
         <activity android:name=".Leedeukyeong"/>
         <activity android:name=".khj"/>
         <activity android:name=".kimjihyunActivity"/>
+	<activity android:name=".dooooooo_Activity"/>
     </application>
 
 </manifest>
