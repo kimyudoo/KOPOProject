@@ -1,6 +1,7 @@
 package com.example.ydkim.testkopoporject;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,16 +17,32 @@ public class kimjihyunActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kimjihyun);
 
-        //버튼 클릭시 kimjihyun
-        Button button = (Button)findViewById(R.id.jihyun_button);
-
-        button.setOnClickListener(new View.OnClickListener() {
+        // khj->kimjihyun 액티비티 전환
+        Button button_festival = (Button)findViewById(R.id.kimjihyun_forward_button);
+        button_festival.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "이전 액티비티로 돌아갑니다.", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "액티비티 전환", Toast.LENGTH_LONG).show();
 
-                finish();
+                // 액티비티 전환 코드
+                Intent intent = new Intent(getApplicationContext(),khj .class);
+                startActivity(intent);
+            }
+        });
+
+
+        // kimjihyun->leedeukyeong 액티비티 전환
+        Button button_next = (Button)findViewById(R.id.kimjihyun_next_button);
+        button_next.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "액티비티 전환", Toast.LENGTH_LONG).show();
+
+                // 액티비티 전환 코드
+                Intent intent = new Intent(getApplicationContext(),Leedeukyeong .class);
+                startActivity(intent);
             }
         });
     }
