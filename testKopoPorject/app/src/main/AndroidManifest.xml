@@ -22,6 +22,7 @@
         <activity android:name=".Leedeukyeong"/>
         <activity android:name=".Ohjihye"/>
         <activity android:name=".khj"/>
+        <activity android:name=".namsgActivity" android:label="남상구 액티비티"/>
         <activity android:name=".kimjihyunActivity"/>
 	    <activity android:name=".dooooooo_Activity"/>
     </application>
