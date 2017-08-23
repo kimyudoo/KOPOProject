@@ -12,9 +12,6 @@ import android.widget.Button;
 
 public class namsgActivity  extends Activity {
 
-    private Button btnStart;
-    private Button btnStop;
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.namsg);
