@@ -15,3 +15,4 @@ Developer list
 유광렬
 우직한
 조영도
+이득영
