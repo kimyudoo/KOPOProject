@@ -17,21 +17,23 @@ public class Leedeukyeong extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.leedeukyeong);
 
+        // Before btn
         Button btnBefore = (Button)findViewById(R.id.btnBefore);
         btnBefore.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), kimjihyunActivity.class);
-                finish();
-                startActivity(intent);
+                finish();               // 이 페이지 닫고
+                startActivity(intent);  // 이전 페이지 열기
             }
         });
 
+        // Next btn
         Button btnNext = (Button)findViewById(R.id.btnNext);
         btnNext.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), namsgActivity.class);
-                finish();
-                startActivity(intent);
+                finish();               // 이 페이지 닫고
+                startActivity(intent);  // 다음 페이지 열기
             }
         });
 
