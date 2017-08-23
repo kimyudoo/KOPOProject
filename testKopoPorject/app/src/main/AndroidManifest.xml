@@ -20,6 +20,7 @@
         <activity android:name=".junwooActivity" android:label="준우 액티비티 야호~"/>
         <activity android:name=".GwangWon_Activity" />
         <activity android:name=".Leedeukyeong"/>
+        <activity android:name=".Ohjihye"/>
         <activity android:name=".khj"/>
         <activity android:name=".kimjihyunActivity"/>
 	    <activity android:name=".dooooooo_Activity"/>
