@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".khj"/>
+        <activity android:name=".choyoungdo_Activity" android:label="조영도 액티비티" />
     </application>
 
 </manifest>
