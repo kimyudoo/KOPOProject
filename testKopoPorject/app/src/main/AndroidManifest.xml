@@ -17,6 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".choyoungdo_Activity" android:label="조영도 액티비티" />
+        <activity android:name=".junwooActivity" android:label="준우 액티비티 야호~"/>
+        <activity android:name=".GwangWon_Activity" />
+        <activity android:name=".Leedeukyeong"/>
+        <activity android:name=".khj"/>
+        <activity android:name=".kimjihyunActivity"/>
     </application>
 
 </manifest>
