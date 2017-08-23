@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/txtV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="Ori" />
+
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:id="@+id/btnBefore"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="버튼튼" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="이전" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/btnFin"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="종료" />
 
 
-</LinearLayout>
+</RelativeLayout>
