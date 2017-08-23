@@ -34,7 +34,15 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#5ACEA4"></LinearLayout>
+        android:background="#5ACEA4"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="조영도"
+            android:textSize="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -44,6 +52,21 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#3ED09A"></LinearLayout>
+        android:background="#3ED09A"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="BACK"/>
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="NEXT"/>
+    </LinearLayout>
 
 </LinearLayout>
