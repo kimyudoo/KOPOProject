@@ -22,7 +22,7 @@
         <activity android:name=".Leedeukyeong"/>
         <activity android:name=".khj"/>
         <activity android:name=".kimjihyunActivity"/>
-	    <activity android:name=".dooooooo_Activity$MainActivity"/>
+	    <activity android:name=".dooooooo_Activity"/>
     </application>
 
 </manifest>
