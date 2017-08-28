@@ -28,7 +28,7 @@ public class Ohjihye extends Activity {
         });
 
         Button btnFin = (Button)findViewById(R.id.btnFin);
-        btnFin.setOnClickListener(new View.OnClickListener(){
+        btnBefore.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 finish();
             }
