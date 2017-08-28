@@ -23,6 +23,7 @@ public class namsgActivity  extends Activity {
                 Intent intent1 = new Intent(getApplicationContext(),
                         Leedeukyeong.class);
                 startActivity(intent1);
+                finish(); //2017-08-28 ACTIVITY 종료
             }
         });
 
@@ -33,6 +34,7 @@ public class namsgActivity  extends Activity {
                 Intent intent1 = new Intent(getApplicationContext(),
                         Ohjihye.class);
                 startActivity(intent1);
+                finish(); //2017-08-28 ACTIVITY 종료
             }
         });
     }
