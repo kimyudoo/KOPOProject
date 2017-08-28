@@ -25,7 +25,7 @@ public class choyoungdo_Activity extends Activity{
                 Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
                 //modified by cyd..
-                //finish();
+                finish();
             }
         });
         //다음 버튼
@@ -34,6 +34,8 @@ public class choyoungdo_Activity extends Activity{
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),dooooooo_Activity.class);
                 startActivity(intent);
+                //modified by cyd..
+                finish();
             }
         });
 
