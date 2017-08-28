@@ -21,7 +21,11 @@ public class choyoungdo_Activity extends Activity{
         Button bBtn = (Button)findViewById(R.id.backBtn);
         bBtn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-               finish();
+                // go to MainActivity modified by cyd..
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(intent);
+                //modified by cyd..
+                //finish();
             }
         });
         //다음 버튼
