@@ -28,6 +28,7 @@ public class kimjihyunActivity extends Activity {
                 // 액티비티 전환 코드
                 Intent intent = new Intent(getApplicationContext(),khj .class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -43,6 +44,7 @@ public class kimjihyunActivity extends Activity {
                 // 액티비티 전환 코드
                 Intent intent = new Intent(getApplicationContext(),Leedeukyeong .class);
                 startActivity(intent);
+                finish();
             }
         });
     }
