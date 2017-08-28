@@ -41,6 +41,7 @@ public class GwangWon_Activity extends Activity {
                 // 액티비티 전환
                 Intent intent = new Intent(getApplicationContext(), dooooooo_Activity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -52,6 +53,7 @@ public class GwangWon_Activity extends Activity {
                 // 액티비티 전환
                 Intent intent = new Intent(getApplicationContext(), junwooActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
