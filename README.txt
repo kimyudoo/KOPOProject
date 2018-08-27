@@ -13,3 +13,4 @@ kopo05
 kopo20
 kopo22
 kopo11
+kopo19
