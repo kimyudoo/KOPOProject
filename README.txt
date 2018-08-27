@@ -6,4 +6,5 @@ PL : KYD
 
 Developer list
 
-±Ë¡æø±
+±Ë¿ØµŒ
+kopo03s
